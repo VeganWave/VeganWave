@@ -1,0 +1,26 @@
+/* Add all CSS from the original <style> tags here */
+:root {
+    --primary: #8BC34A;
+    --secondary: #689F38;
+    --accent: #FFC107;
+    --light: #F1F8E9;
+    --dark: #33691E;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/soy-field.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Add remaining CSS rules from the original code */
